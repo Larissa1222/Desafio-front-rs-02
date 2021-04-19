@@ -1,9 +1,4 @@
-import { ReactNode } from "react";
-
-interface IContentProps {
-  children: ReactNode;
-  genre: string;
-}
+import { IContentProps } from '../services/interfaces';
 
 export function Content({ genre, children }: IContentProps) {
 

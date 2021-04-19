@@ -1,8 +1,4 @@
-import { ReactNode } from "react";
-
-interface SideBarProps {
-  children: ReactNode;
-}
+import { SideBarProps } from '../services/interfaces';
 
 export function SideBar({ children }: SideBarProps) {
   
